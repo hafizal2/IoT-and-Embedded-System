@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "dlinkap1360";
-const char* password = "abcd1234";
+const char* ssid = "dlinkap1360";  // WiFi SSID (boleh tukar utk guna hotspot phone)
+const char* password = "abcd1234"; // WiFi password
 
 const char* mqtt_server = "174.138.28.115";
 const int mqtt_port = 1883;
